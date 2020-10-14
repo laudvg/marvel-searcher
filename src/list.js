@@ -5,7 +5,11 @@ import './list.css';
 class List extends Component {
   render() {
     return (
-      <ListItem superheroe={this.props.results[0]}/>
+      <div className="heroe-list">
+        {this.props.results.map((superheroe, index)=> <ListItem superheroe={superheroe} key={index}/> )}
+      </div>
+        
+      // <ListItem superheroe={this.props.results[0]}/>
     );
 
   }

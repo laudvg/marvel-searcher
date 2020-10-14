@@ -10,7 +10,10 @@ class App extends Component {
       <div className="App">
         <h1>Marvel search</h1>
         <input type="text" id="fname" name="fname" placeholder="Example: Spider-Man"/>
-        <List results={Spidey.data.results}/>
+        <div>
+          
+          <List results={Spidey.data.results}/>
+        </div>
       </div>
     );
   }

@@ -5,7 +5,7 @@
   border-style: solid;
   border-color: gray;
   background-color: lightgray;
-  width: 30%;
+  width: 25%;
   height: 550px;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
 
 .description{
   font-size: 12px;
-  width: 450px;
+  width: 350px;
   text-align: justify;
 }
 
