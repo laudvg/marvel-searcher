@@ -1,0 +1,24 @@
+.superheroe{
+  margin: 10px;
+  padding: 20px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: gray;
+  background-color: lightgray;
+  width: 30%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description{
+  font-size: 12px;
+  width: 450px;
+  text-align: justify;
+}
+
+.thumbnail{
+  margin-top: 30px;
+  width: 350px;
+}
