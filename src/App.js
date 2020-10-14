@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import List from "./list"
 import './App.css';
 
 const spidey = {
@@ -29,25 +30,38 @@ const spidey = {
       
 }
 
+
 class App extends Component {
   render() {
-    const {thumbnail} = spidey.data.results[0];
     return (
-      
       <div className="App">
         <h1>Marvel search</h1>
         <input type="text" id="fname" name="fname" placeholder="Example: Spider-Man"/>
-        <div>
-          <h2>{spidey.data.results[0].name}</h2>
-          <img src={`${thumbnail.path}.${thumbnail.extension}`} alt="superheroe"/>
-        </div>
-
+        <List results={spidey.data.results}/>
       </div>
-      
     );
-
   }
-
 }
+
+// class App extends Component {
+//   render() {
+//     const name = spidey.data.results[0].name
+//     const {thumbnail} = spidey.data.results[0];
+//     const description = spidey.data.results[0].description;
+//     return (
+//       <div className="App">
+//         <h1>Marvel search</h1>
+//         <input type="text" id="fname" name="fname" placeholder="Example: Spider-Man"/>
+//         <div>
+//           <h2>{name}</h2>
+//           <img src={`${thumbnail.path}.${thumbnail.extension}`} alt="superheroe"/>
+//           <p>{description}</p>
+//         </div>
+//       </div>
+//     );
+
+//   }
+
+// }
 
 export default App;

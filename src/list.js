@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
+import ListItem from "./list-item"
 import './list.css';
 
 class List extends Component {
   render() {
-    const {thumbnail} = spidey.data.results[0];
     return (
-      
-      <div>
-
-      </div>
-      
+      <ListItem superheroe={this.props.results[0]}/>
     );
 
   }
-
 }
+
+export default List;
