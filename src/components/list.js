@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ListItem from "./list-item"
+import ListItem from "../components/list-item.js"
 import './list.css';
 
 class List extends Component {
