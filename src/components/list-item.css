@@ -13,13 +13,13 @@
   margin-top: 10px;
   margin-left: auto;
   margin-right: 10px;
-  background-color: lightgray;
+  background-color:#ee171e;
   color: white;
   border:none;
 }
 
 .Modal-button:active{  
-  background-color:#ee171ec7;
+  background-color:#ee171e9f;
 }
 
 .about{
@@ -30,10 +30,9 @@
 @media only screen and (max-width: 768px) {
   .thumbnail{
     display: block;
-    max-width: 90%;
-    max-height: 50%;
-    width: auto;
-    height: auto;
+    width: 90%;
+    height: 50%;
+    object-fit: cover;
 
     margin-top: 30px;
   }
@@ -111,8 +110,9 @@
 @media only screen and (min-width: 768px) {
   .thumbnail{
     margin-top: 30px;
-    max-width: 95%;
-    max-height: 70%;
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
   }
 
   .superheroe{
