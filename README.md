@@ -21,8 +21,8 @@ All the data and pictures are from the Marvel Api for Developers.
 
 ## Before running
 
-You should get your own Keys from the Marvel Api. Register then get them here: <br />
-[https://developer.marvel.com/account](https://developer.marvel.com/account).<br />
+You should get your own Keys from the Marvel Api. [Register](https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount), then get them here: <br />
+[Yoy keys](https://developer.marvel.com/account).<br />
 
 Once you have the keys, create a .env file. In this file you'll add the variables:<br />
 :small_blue_diamond: REACT_APP_MARVEL_API_KEY=(Your api key)<br />
