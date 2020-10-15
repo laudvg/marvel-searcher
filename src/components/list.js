@@ -6,38 +6,31 @@ import './list.css';
 class List extends Component {
   constructor(props){
     super(props)
-    
     this.state = {
-      heroes : [],
-      isFetch: true,
+      heroes : props.results,
+      isFetching: true,
     }
   }
 
   async componentDidMount () {
-    const responseJson = await getHeroes();
-    this.setState({heroes:responseJson.data.results, isFetch:false})
+    this.setState({heroes: await getHeroes(), isFetching: false})
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.results !== prevProps.results) {
+      this.setState({heroes: this.props.results});
+    }
   }
 
   render() {
 
-    const{isFetch, heroes} = this.state;
-
-    if (isFetch){
+    const{isFetching, heroes} = this.state;
+    if (isFetching){
       return "loading"
     }
     
-    // const oneHeroe = this.state.heroes[0]
-
     return (
         heroes.map((oneHeroe, index) => <ListItem {...oneHeroe} key={index}/>)
-
-      // heroes.map((oneHeroe, index) => <ListItem name={oneHeroe.name} key={index}/>)
-
-
-      // <div className="heroe-list">
-      //   {this.props.results.map((superheroe, index)=> <ListItem superheroe={superheroe} key={index}/> )}
-      // </div>
-      //  <ListItem superheroe={this.props.results[0]}/>
     );
 
   }

@@ -1,5 +1,10 @@
 .heroe-list{
   width: 100vw;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 160px;
+
 }
