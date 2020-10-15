@@ -46,14 +46,14 @@ You will also see any lint errors in the console.
 ## What youll find
 
 In the folder **scr**:<br />
-  -App files(html,js,css)<br />
-  -index(css, js)
-  -components: all the api components.<br />
-  -services: the files that do API call.<br /><br />
+  - App files(html,js,css)<br />
+  - index(css, js)
+  - components: all the api components.<br />
+  - services: the files that do API call.<br /><br />
 
 In the folder **public**:<br />
-  -images<br />
-  index.html<br /><br />
+  - images<br />
+  - index.html<br /><br />
 
 
 Now, you can check and edit the app :smiley:
