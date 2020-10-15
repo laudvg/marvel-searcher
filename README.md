@@ -61,8 +61,6 @@ Now, you can check and edit the app :smiley:
 ## Next Steps
 
 I would like to improve the character search, and do more complex searchs.<br />
-Improve search, make it faster. <br />
-Improve the character cards, maybe add more info about each character. <br />
 I think could be a nice idea to also display random characters at the begining of the app. <br />
 Improve the responsive answer of the app <br />
 
