@@ -1,41 +1,38 @@
-.description{
+.description {
   font-size: 12px;
   width: 350px;
   text-align: justify;
 }
 
-
-.Modal-button{
+.Modal-button {
   font-weight: 800;
   padding: 10px;
   margin-top: 10px;
   margin-left: auto;
   margin-right: 10px;
-  background-color:#ee171e;
+  background-color: #ee171e;
   color: white;
-  border:none;
+  border: none;
 }
 
-.Modal-button:active{  
-  background-color:#ee171e9f;
+.Modal-button:active {
+  background-color: #ee171e9f;
 }
 
-.about{
+.about {
   margin-left: 0;
   margin-top: auto;
 }
 
 @media only screen and (max-width: 768px) {
-  .thumbnail{
+  .thumbnail {
     display: block;
     width: 90%;
     height: 50%;
     object-fit: cover;
-
     margin-top: 30px;
   }
-
-  .superheroe{
+  .superheroe {
     box-shadow: 2px 2px 10px rgb(54 54 54);
     margin: 10px;
     padding: 20px;
@@ -46,27 +43,21 @@
     flex-direction: column;
     align-items: center;
   }
-
   .description {
     font-size: 10px;
     text-align: justify;
     margin-top: 0px;
     width: 70%;
-}
-
-
-
-  .Modal{
+  }
+  .Modal {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-
     max-height: 90vh;
     overflow-y: auto;
-
     width: 75%;
     margin-bottom: auto;
     margin-top: 20%;
@@ -75,10 +66,8 @@
     background-color: lightgray;
     border: none;
     box-shadow: 2px 2px 50px rgb(54 54 54);
-
   }
-
-  .Modal::after{
+  .Modal::after {
     position: fixed;
     top: 50;
     top: 5%;
@@ -86,9 +75,8 @@
     right: 0px;
     bottom: 0px;
     background-color: rgba(255, 255, 255, 0.75);
-   }
-
-  .Modal img{
+  }
+  .Modal img {
     display: block;
     max-width: 90%;
     max-height: 50%;
@@ -96,24 +84,20 @@
     height: auto;
     margin: 5px;
   }
-
-  .Modal h3{
+  .Modal h3 {
     font-size: 20px;
     margin: 0;
   }
-
-
 }
 
 @media only screen and (min-width: 768px) {
-  .thumbnail{
+  .thumbnail {
     margin-top: 30px;
     width: 90%;
     height: 70%;
     object-fit: cover;
   }
-
-  .superheroe{
+  .superheroe {
     box-shadow: 2px 2px 10px rgb(54 54 54);
     margin: 10px;
     padding: 20px;
@@ -124,8 +108,7 @@
     flex-direction: column;
     align-items: center;
   }
-  
-  .Modal{
+  .Modal {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     display: flex;
@@ -140,14 +123,13 @@
     border: none;
     box-shadow: 2px 2px 50px rgb(54 54 54);
   }
-  .Modal h3{
-      font-size: 36px;
-      margin: 0;
-      margin-bottom: 5px;
-  }
-  .Modal img{
+  .Modal h3 {
+    font-size: 36px;
     margin: 0;
-  
+    margin-bottom: 5px;
+  }
+  .Modal img {
+    margin: 0;
     max-width: 75%;
     max-height: 60%;
     width: auto;

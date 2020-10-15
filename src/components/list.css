@@ -1,4 +1,4 @@
-.heroe-list{
+.heroe-list {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -6,17 +6,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .heroe-list{
+  .heroe-list {
     flex-wrap: nowrap;
     flex-direction: column;
-    margin-top: 10rem;  
+    margin-top: 10rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
-.heroe-list{
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-top: 12rem;
-}
+  .heroe-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 12rem;
+  }
 }

@@ -1,66 +1,62 @@
-.search-bar{
+.search-bar {
   position: relative;
   width: 100%;
   top: 140px;
   margin-top: 5px;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.input{
+.input {
   padding: 10px;
   width: 60%;
   border: none;
   border-radius: 1px;
-  background-color:#24242477;
+  background-color: #24242477;
   color: white;
 }
 
-.search-button{
+.search-button {
   padding: 10px;
   border: #807d7d solid;
   border-radius: 1px;
-  background-color:#242424;
+  background-color: #242424;
   color: white;
 }
 
-.search-button:active {     
-  background-color:#ee171ec7;
-  border:#ee171ec7;  
+.search-button:active {
+  background-color: #ee171ec7;
+  border: #ee171ec7;
 }
 
-
 @media only screen and (max-width: 768px) {
-  .limit-selector select{
+  .limit-selector select {
     position: relative;
     top: 150px;
     padding: 10px;
     width: 60%;
     border: none;
     border-radius: 1px;
-    background-color:#24242477;
+    background-color: #24242477;
     color: #807d7d;
   }
-  
   .limit-selector:active {
     color: white;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .limit-selector select{
+  .limit-selector select {
     position: relative;
     top: 150px;
     padding: 10px;
     width: 10%;
     border: none;
     border-radius: 1px;
-    background-color:#24242477;
+    background-color: #24242477;
     color: #807d7d;
   }
-  
   .limit-selector:active {
     color: white;
   }
