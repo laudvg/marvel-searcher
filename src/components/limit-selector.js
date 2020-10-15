@@ -3,21 +3,18 @@ import './search.css';
 
 class LimitSelector extends Component {
   state = {
-    perPage: 20,
+    limit: 20,
   };
 
-  changePerPage = () => {
-    this.setState({ perPage: 44 });
-    const event = {
-      target: {value: 44}
-    }
+  changeLimit = (event) => {
+    this.setState({ limit: event.target.value });
     this.props.onChangeLimit(event);
   }
 
   render() {
     return (
       <div className="limit-selector">
-            <select> value={this.state.perPage}  name="limit" onChange={this.changePerPage}
+            <select value={this.state.limit} onChange={this.changeLimit}>
               <option value={10}>10</option>
               <option value={20}>20</option>
               <option value={30}>30</option>

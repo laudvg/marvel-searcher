@@ -25,3 +25,9 @@
   background-color:#ee171ec7;
   border:#ee171ec7;  
 }
+
+
+.limit-selector{
+  position: relative;
+  top: 150px;
+}
