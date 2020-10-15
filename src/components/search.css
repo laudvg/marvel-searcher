@@ -7,13 +7,21 @@
 .input{
   padding: 10px;
   width: 60%;
-  border: 1px solid gray;
+  border: none;
   border-radius: 1px;
-  background-color: lightgray;
+  background-color:#24242477;
+  color: white;
 }
 
 .search-button{
   padding: 10px;
-  border: 1px solid gray;
+  border: #807d7d solid;
   border-radius: 1px;
+  background-color:#242424;
+  color: white;
+}
+
+.search-button:focus {     
+  background-color:#ee171ec7;
+  border:#ee171ec7;  
 }
