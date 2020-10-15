@@ -1,3 +1,4 @@
+
 .superheroe{
   box-shadow: 2px 2px 10px rgb(54 54 54);
   margin: 10px;
@@ -18,8 +19,8 @@
 
 .thumbnail{
   margin-top: 30px;
-  max-width: 350px;
-  max-height: 350px;
+  max-width: 95%;
+  max-height: 100%;
 }
 
 .Modal{
@@ -66,4 +67,32 @@
 .about{
   margin-left: 0;
   margin-top: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .superheroe{
+    box-shadow: 2px 2px 10px rgb(54 54 54);
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    width: 75%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .thumbnail{
+    margin-top: 30px;
+    max-width: 90%;
+    max-height: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+.heroe-list{
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 16rem;
+}
 }

@@ -1,9 +1,24 @@
+
+
 .heroe-list{
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroe-list{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 16rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+.heroe-list{
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 160px;
+  margin-top: 16rem;
+}
 }
