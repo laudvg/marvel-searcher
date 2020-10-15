@@ -6,6 +6,9 @@ You can do a search by adding the name of the character and choose the maximum n
 
 If you are not sure for what to look for, you have a preview of the charachters in alphabetical order and you can set the number of items displayed. 
 
+Every Character has a modal where, if available, you'll see more information about the superheroe.
+
+All the data and pictures are from the Marvel Api for Developers.
 
 ## I used to make this app
 
@@ -14,16 +17,16 @@ If you are not sure for what to look for, you have a preview of the charachters 
 :small_blue_diamond: CSS<br />
 :small_blue_diamond: React.js<br />
 :small_blue_diamond: React-Modal<br />
-:small_blue_diamond: Used data from the Marvel Api: [https://developer.marvel.com/](https://developer.marvel.com/)
+:small_blue_diamond: Data from the Marvel Api: [https://developer.marvel.com/](https://developer.marvel.com/)
 
-### Before running
+## Before running
 
 You should get your own Keys from the Marvel Api. Register then get them here: <br />
 [https://developer.marvel.com/account](https://developer.marvel.com/account).<br />
 
-Once you have the keys, create a .env file. In this file you'll add the variables:
-:small_blue_diamond: REACT_APP_MARVEL_API_KEY=(Your api key)
-:small_blue_diamond: REACT_APP_MARVEL_HASH=(Your api hash)
+Once you have the keys, create a .env file. In this file you'll add the variables:<br />
+:small_blue_diamond: REACT_APP_MARVEL_API_KEY=(Your api key)<br />
+:small_blue_diamond: REACT_APP_MARVEL_HASH=(Your api hash)<br />
 
 Remember to place the .env in .gitignore to prevent your keys to go public.
 
@@ -40,6 +43,16 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 
+## Available Scripts
 
+Now, you can check and edit the app :smiley:
+
+## Next Steps
+
+I would like to improve the character search, and do more complex searchs.<br />
+Improve search, make it faster. <br />
+Improve the character cards, maybe add more info about each character. <br />
+Display random characters at the begining of the app. <br />
+Improve the responsive answer of the app <br />
 
 
