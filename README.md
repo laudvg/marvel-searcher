@@ -23,11 +23,11 @@ All the data and pictures are from the Marvel Api for Developers.
 
 You should get your own Keys from the Marvel Api. 
 [Register](https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount), then get them [here](https://developer.marvel.com/account).
-You have to make your hash following the instructions for _Authentication for Server-Side Applications_ in the documentation<br />
+You'll have to make your hash following the instructions for _Authentication for Server-Side Applications_ in the documentation<br />
 
 Once you have the keys, create a **.env** file. In this file you'll add the variables:<br />
-:small_blue_diamond: REACT_APP_MARVEL_API_KEY=(Your api key)<br />
-:small_blue_diamond: REACT_APP_MARVEL_HASH=(Your api hash)<br />
+-  REACT_APP_MARVEL_API_KEY=(Your api key)<br />
+-  REACT_APP_MARVEL_HASH=(Your api hash)<br />
 
 Remember to place the .env in .gitignore to prevent your keys to go public.
 
@@ -60,8 +60,8 @@ Now, you can check and edit the app :smiley:
 
 ## Next Steps
 
-I would like to improve the character search, and do more complex searchs.<br />
-I think could be a nice idea to also display random characters at the begining of the app. <br />
-Improve the responsive answer of the app <br />
+I would like to improve the character search, and do more complex searches.<br />
+I think could be a nice idea to also display random characters to discover new superheroes. <br />
+Improve the responsive answer of the app. <br />
 
 
