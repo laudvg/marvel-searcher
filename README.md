@@ -48,7 +48,7 @@ You will also see any lint errors in the console.
 In the folder **scr**:<br />
   - App files(html,js,css)<br />
   - index(css, js)
-  - components: all the api components.<br />
+  - components: all the React components of the App.<br />
   - services: the files that do API call.<br /><br />
 
 In the folder **public**:<br />
