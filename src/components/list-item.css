@@ -17,11 +17,6 @@
   text-align: justify;
 }
 
-.thumbnail{
-  margin-top: 30px;
-  max-width: 95%;
-  max-height: 100%;
-}
 
 .Modal{
   font-family: 'Roboto Condensed', sans-serif;
@@ -62,6 +57,11 @@
 
 .Modal img{
   margin: 0;
+
+  max-width: 75%;
+  max-height: 60%;
+  width: auto;
+  height: auto;
 }
 
 .about{
@@ -82,17 +82,60 @@
     align-items: center;
   }
 
+  .description {
+    font-size: 10px;
+    text-align: justify;
+    margin-top: 0px;
+    width: 70%;
+}
+
   .thumbnail{
-    margin-top: 30px;
+    display: block;
     max-width: 90%;
     max-height: 50%;
+    width: auto;
+    height: auto;
+
+    margin-top: 30px;
   }
+
+  .Modal{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 75%;
+    margin-bottom: auto;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightgray;
+    border: none;
+    box-shadow: 2px 2px 50px rgb(54 54 54);
+  }
+
+  .Modal img{
+    display: block;
+    max-width: 90%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+
+  .Modal h3{
+    font-size: 20px;
+    margin: 0;
+}
 }
 
 @media only screen and (min-width: 768px) {
-.heroe-list{
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-top: 16rem;
-}
+  .thumbnail{
+    margin-top: 30px;
+    max-width: 95%;
+    max-height: 70%;
+  }
 }

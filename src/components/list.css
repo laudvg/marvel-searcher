@@ -11,7 +11,7 @@
   .heroe-list{
     flex-wrap: nowrap;
     flex-direction: column;
-    margin-top: 16rem;
+    margin-top: 10rem;  
   }
 }
 
@@ -19,6 +19,6 @@
 .heroe-list{
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 16rem;
+  margin-top: 12rem;
 }
 }
