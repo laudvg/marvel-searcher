@@ -1,36 +1,32 @@
 import React, { Component } from 'react';
 import ListItem from "../components/list-item.js"
-import {getHeroes} from "../services/heroes"
 import './list.css';
 
 class List extends Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      heroes : props.results,
-      isFetching: true,
-    }
-  }
-
-  async componentDidMount () {
-    this.setState({heroes: await getHeroes(), isFetching: false})
+  state = {
+    heroes: this.props.heroes,
+    isFetching: true
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.results !== prevProps.results) {
-      this.setState({heroes: this.props.results});
+    if (this.props.isFetching !== prevProps.isFetching) {
+      this.setState({isFetching: this.props.isFetching });
+    }
+    if (this.props.heroes !== prevProps.heroes) {
+      this.setState({ heroes : this.props.heroes});
     }
   }
 
   render() {
+   
+   const{ isFetching, heroes } = this.state;
 
-    const{isFetching, heroes} = this.state;
     if (isFetching){
-      return "loading"
+      return "loading";
     }
-    
+
     return (
-        heroes.map((oneHeroe, index) => <ListItem {...oneHeroe} key={index}/>)
+        heroes.map((oneHero) => <ListItem {...oneHero} key={oneHero.id}/>)
     );
 
   }
