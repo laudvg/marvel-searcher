@@ -21,13 +21,23 @@
   color: white;
 }
 
-.search-button:focus {     
+.search-button:active {     
   background-color:#ee171ec7;
   border:#ee171ec7;  
 }
 
 
-.limit-selector{
+.limit-selector select{
   position: relative;
   top: 150px;
+  padding: 10px;
+  width: 40%;
+  border: none;
+  border-radius: 1px;
+  background-color:#24242477;
+  color: #807d7d;
+}
+
+.limit-selector:active {
+  color: white;
 }
