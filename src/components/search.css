@@ -1,4 +1,9 @@
 .search-bar{
+  position: relative;
+  width: 100%;
+  top: 140px;
+  margin-top: 5px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,17 +32,36 @@
 }
 
 
-.limit-selector select{
-  position: relative;
-  top: 150px;
-  padding: 10px;
-  width: 40%;
-  border: none;
-  border-radius: 1px;
-  background-color:#24242477;
-  color: #807d7d;
+@media only screen and (max-width: 768px) {
+  .limit-selector select{
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 1px;
+    background-color:#24242477;
+    color: #807d7d;
+  }
+  
+  .limit-selector:active {
+    color: white;
+  }
 }
 
-.limit-selector:active {
-  color: white;
+@media only screen and (min-width: 768px) {
+  .limit-selector select{
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 1px;
+    background-color:#24242477;
+    color: #807d7d;
+  }
+  
+  .limit-selector:active {
+    color: white;
+  }
 }
