@@ -15,10 +15,10 @@ class LimitSelector extends Component {
     return (
       <div className="limit-selector">
             <select value={this.state.limit} onChange={this.changeLimit}>
-              <option value={10}>10</option>
-              <option value={20}>20</option>
-              <option value={30}>30</option>
-              <option value={40}>40</option>
+              <option value={10}>10 superheroes</option>
+              <option value={20}>20 superheroes</option>
+              <option value={30}>30 superheroes</option>
+              <option value={40}>40 superheroes</option>
             </select>
       </div>
     );
