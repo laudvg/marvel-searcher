@@ -21,10 +21,10 @@ All the data and pictures are from the Marvel Api for Developers.
 
 ## Before running
 
-You should get your own Keys from the Marvel Api. [Register](https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount), then get them here: <br />
-[Yoy keys](https://developer.marvel.com/account).<br />
+You should get your own Keys from the Marvel Api. 
+[Register](https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount), then get them [here](https://developer.marvel.com/account).<br />
 
-Once you have the keys, create a .env file. In this file you'll add the variables:<br />
+Once you have the keys, create a **.env** file. In this file you'll add the variables:<br />
 :small_blue_diamond: REACT_APP_MARVEL_API_KEY=(Your api key)<br />
 :small_blue_diamond: REACT_APP_MARVEL_HASH=(Your api hash)<br />
 
@@ -42,6 +42,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+## What youll find
+
+In the folder **scr**:<br />
+  -App files(html,js,css)<br />
+  -index(css, js)
+  -components: all the api components.<br />
+  -services: the files that do API call.<br /><br />
+
+In the folder **public**:<br />
+  -images<br />
+  -index.html<br /><br />
 
 ## Available Scripts
 
@@ -52,7 +63,7 @@ Now, you can check and edit the app :smiley:
 I would like to improve the character search, and do more complex searchs.<br />
 Improve search, make it faster. <br />
 Improve the character cards, maybe add more info about each character. <br />
-Display random characters at the begining of the app. <br />
+I think could be a nice idea to also display random characters at the begining of the app. <br />
 Improve the responsive answer of the app <br />
 
 
