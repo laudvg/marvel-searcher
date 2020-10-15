@@ -2,11 +2,11 @@
 
 This is an app to seach for superheroes.
 The app does a charachter search. 
-You can do a search by adding the name of the character and choose the maximum number of characters you want to receive.
+You can do a search by writing the name of the character and choose the maximum number of characters you want to receive.
 
 If you are not sure for what to look for, you have a preview of the charachters in alphabetical order and you can set the number of items displayed. 
 
-Every Character has a modal where, if available, you'll see more information about the superheroe.
+Every character has a modal where, if available, you'll see more information about the superheroe.
 
 All the data and pictures are from the Marvel Api for Developers.
 
@@ -22,7 +22,8 @@ All the data and pictures are from the Marvel Api for Developers.
 ## Before running
 
 You should get your own Keys from the Marvel Api. 
-[Register](https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount), then get them [here](https://developer.marvel.com/account).<br />
+[Register](https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount), then get them [here](https://developer.marvel.com/account).
+You have to make your hash following the instructions for _Authentication for Server-Side Applications_ in the documentation<br />
 
 Once you have the keys, create a **.env** file. In this file you'll add the variables:<br />
 :small_blue_diamond: REACT_APP_MARVEL_API_KEY=(Your api key)<br />
@@ -30,7 +31,7 @@ Once you have the keys, create a **.env** file. In this file you'll add the vari
 
 Remember to place the .env in .gitignore to prevent your keys to go public.
 
-## Available Scripts
+## How do you turn this on? :oncoming_automobile:
 
 Now, in the project directory, you can run:
 
@@ -52,9 +53,8 @@ In the folder **scr**:<br />
 
 In the folder **public**:<br />
   -images<br />
-  -index.html<br /><br />
+  index.html<br /><br />
 
-## Available Scripts
 
 Now, you can check and edit the app :smiley:
 
