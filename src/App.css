@@ -1,5 +1,41 @@
 .App {
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
+  background-color:#807d7d;
 }
+
+.marvel-bar{
+  overflow: hidden;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
+  background-color: black;
+  width: 100vw;
+  height: 120px;
+  z-index:+1;
+  box-shadow: 2px 2px 20px rgb(44, 44, 44);
+}
+
+.marvel-img{
+  position: relative;
+  top: 0;
+  margin-top: 10px;
+  max-height: 80px;
+}
+
+.marvel-search{
+  color: white;
+  margin: 2px;
+  font-size: 15px;
+}
+
+.search-bar{
+  position: relative;
+  width: 100vw;
+  top: 70px;
+  margin-top: 5px;
+}
+
 
 

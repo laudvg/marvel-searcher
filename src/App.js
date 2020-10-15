@@ -2,21 +2,33 @@ import React, { Component } from 'react';
 import './App.css';
 import List from "./components/list.js"
 import Search from "./components/search.js"
-import Spidey from "./spidey.js"
-
+import { getBySearch } from './services/heroes';
+import LimitSelector from "./components/limit-selector"
+import MarvelBar from "./components/marvel-fixed"
 
 class App extends Component {
-  handleSearch = (search) => {
-    console.log(search)
+  state = { 
+    heroes: {},
+    limit: 12
   }
+
+  handleSearch = async (search) => {
+    this.setState({ heroes: await getBySearch(search, this.state.limit)})
+    console.log(this.state);
+  }
+
+  changeLimitPerPage = (event) => this.setState({limit: event.target.value })
 
   render() {
     return (
       <div className="App">
-        <h1>Marvel search</h1>
-        <Search handleSearch={this.handleSearch}/>
-        <div>
-          <List results={Spidey.data.results}/>
+        <MarvelBar/>
+        <div className="search-bar">
+          <Search handleSearch={this.handleSearch}/>
+        </div>
+        <LimitSelector onChangeLimit={this.changeLimitPerPage} />
+        <div className="heroe-list">
+          <List results={this.state.heroes}/>
         </div>
       </div>
     );
