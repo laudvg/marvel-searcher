@@ -1,3 +1,20 @@
+# :star2: MARVEL SEARCHER :star2:
+
+This is an app to seach for superheroes.
+The app does a charachter search. 
+You can do a search by adding the name of the character and choose the maximum number of characters you want to receive.
+
+If you are not sure for what to look for, you have a preview of the charachters in alphabetical order and you can set the number of items displayed. 
+
+
+## I used to make this app
+
+Javascript
+HTML
+CSS
+React.js
+React-Modal
+
 ## Available Scripts
 
 In the project directory, you can run:
