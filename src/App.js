@@ -9,7 +9,7 @@ import MarvelBar from "./components/marvel-fixed"
 class App extends Component {
   state = { 
     heroes: {},
-    limit: 12
+    limit: 20
   }
 
   handleSearch = async (search) => {
