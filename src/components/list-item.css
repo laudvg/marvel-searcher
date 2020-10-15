@@ -26,27 +26,43 @@
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  height: 75vh;
   margin-top: 10%;
   margin-left: 30%;
   margin-right: 30%;
   background-color: lightgray;
   border: none;
+  box-shadow: 2px 2px 50px rgb(54 54 54);
 }
 
-.Modal button{
+.Modal h3{
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.Modal-button{
   font-weight: 800;
-  position: relative;
-  left: 45%;
   padding: 10px;
   margin-top: 10px;
+  margin-left: auto;
   background-color: lightgray;
   color: white;
   border:none;
 }
 
-.Modal button:active{  
+.Modal-button:active{  
   background-color:#ee171ec7;
+}
+
+.Modal img{
+  margin: 0;
+}
+
+.about{
+  margin-left: 0;
+  margin-top: auto;
 }
